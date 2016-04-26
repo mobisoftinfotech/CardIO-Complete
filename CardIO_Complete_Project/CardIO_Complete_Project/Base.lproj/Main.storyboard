@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="MtF-4m-Eoh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Ready Made View Controller-->
+        <scene sceneID="w3k-zz-pPb">
+            <objects>
+                <viewController id="MtF-4m-Eoh" customClass="ReadyMadeViewController" customModule="CardIO_Complete_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xEm-fL-Bqb"/>
+                        <viewControllerLayoutGuide type="bottom" id="KeX-Or-ZRC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Ix-1Q-srr">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zx2-xK-pOE">
+                                <rect key="frame" x="20" y="300" width="560" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t5f-bO-tMl">
+                                <rect key="frame" x="231" y="308" width="138" height="30"/>
+                                <state key="normal" title="Start Scanning Card"/>
+                                <connections>
+                                    <action selector="startScanningButtonClicked:" destination="MtF-4m-Eoh" eventType="touchUpInside" id="wsz-7L-obH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="t5f-bO-tMl" firstAttribute="top" secondItem="Zx2-xK-pOE" secondAttribute="bottom" constant="8" id="Qhz-Nt-nhn"/>
+                            <constraint firstItem="Zx2-xK-pOE" firstAttribute="centerX" secondItem="1Ix-1Q-srr" secondAttribute="centerX" id="V7f-nN-GLe"/>
+                            <constraint firstItem="t5f-bO-tMl" firstAttribute="centerX" secondItem="1Ix-1Q-srr" secondAttribute="centerX" id="ahb-lo-4ii"/>
+                            <constraint firstItem="Zx2-xK-pOE" firstAttribute="leading" secondItem="1Ix-1Q-srr" secondAttribute="leading" constant="20" id="b5C-GM-e4o"/>
+                            <constraint firstItem="Zx2-xK-pOE" firstAttribute="centerY" secondItem="1Ix-1Q-srr" secondAttribute="centerY" id="kTg-ya-o1t"/>
+                            <constraint firstAttribute="trailing" secondItem="Zx2-xK-pOE" secondAttribute="trailing" constant="20" id="peN-S5-Uob"/>
+                            <constraint firstItem="KeX-Or-ZRC" firstAttribute="top" relation="greaterThanOrEqual" secondItem="t5f-bO-tMl" secondAttribute="bottom" constant="8" id="t5Q-Pj-NBF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="labelResults" destination="Zx2-xK-pOE" id="6VI-vG-FF6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zbu-LE-mGz" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="315" y="429"/>
+        </scene>
+    </scenes>
+</document>

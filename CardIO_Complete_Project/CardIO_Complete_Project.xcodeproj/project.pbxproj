@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B8D1681CCF660F00A50571 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D1671CCF660F00A50571 /* AppDelegate.swift */; };
+		A9B8D16D1CCF660F00A50571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B8D16B1CCF660F00A50571 /* Main.storyboard */; };
+		A9B8D16F1CCF660F00A50571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B8D16E1CCF660F00A50571 /* Assets.xcassets */; };
+		A9B8D1721CCF660F00A50571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B8D1701CCF660F00A50571 /* LaunchScreen.storyboard */; };
+		A9B8D17D1CCF660F00A50571 /* CardIO_Complete_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D17C1CCF660F00A50571 /* CardIO_Complete_ProjectTests.swift */; };
+		A9B8D1881CCF660F00A50571 /* CardIO_Complete_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D1871CCF660F00A50571 /* CardIO_Complete_ProjectUITests.swift */; };
+		A9B8D1961CCF662200A50571 /* ReadyMadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B8D1951CCF662200A50571 /* ReadyMadeViewController.swift */; };
+		A9B8D1A31CCF66C400A50571 /* libCardIO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1A01CCF66C400A50571 /* libCardIO.a */; };
+		A9B8D1A41CCF66C400A50571 /* libopencv_core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1A11CCF66C400A50571 /* libopencv_core.a */; };
+		A9B8D1A51CCF66C400A50571 /* libopencv_imgproc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1A21CCF66C400A50571 /* libopencv_imgproc.a */; };
+		A9B8D1A71CCF671400A50571 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1A61CCF671400A50571 /* Accelerate.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A9B8D1A91CCF671D00A50571 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1A81CCF671D00A50571 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A9B8D1AB1CCF672600A50571 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1AA1CCF672600A50571 /* AudioToolbox.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A9B8D1AD1CCF673500A50571 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1AC1CCF673500A50571 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		A9B8D1AF1CCF673C00A50571 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B8D1AE1CCF673C00A50571 /* MobileCoreServices.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B8D1791CCF660F00A50571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B8D15C1CCF660F00A50571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B8D1631CCF660F00A50571;
+			remoteInfo = CardIO_Complete_Project;
+		};
+		A9B8D1841CCF660F00A50571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B8D15C1CCF660F00A50571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B8D1631CCF660F00A50571;
+			remoteInfo = CardIO_Complete_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9B8D1641CCF660F00A50571 /* CardIO_Complete_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardIO_Complete_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8D1671CCF660F00A50571 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A9B8D16C1CCF660F00A50571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9B8D16E1CCF660F00A50571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9B8D1711CCF660F00A50571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9B8D1731CCF660F00A50571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B8D1781CCF660F00A50571 /* CardIO_Complete_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardIO_Complete_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8D17C1CCF660F00A50571 /* CardIO_Complete_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIO_Complete_ProjectTests.swift; sourceTree = "<group>"; };
+		A9B8D17E1CCF660F00A50571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B8D1831CCF660F00A50571 /* CardIO_Complete_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardIO_Complete_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B8D1871CCF660F00A50571 /* CardIO_Complete_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardIO_Complete_ProjectUITests.swift; sourceTree = "<group>"; };
+		A9B8D1891CCF660F00A50571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9B8D1951CCF662200A50571 /* ReadyMadeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadyMadeViewController.swift; sourceTree = "<group>"; };
+		A9B8D1981CCF66C400A50571 /* CardIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIO.h; sourceTree = "<group>"; };
+		A9B8D1991CCF66C400A50571 /* CardIOCreditCardInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOCreditCardInfo.h; sourceTree = "<group>"; };
+		A9B8D19A1CCF66C400A50571 /* CardIODetectionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIODetectionMode.h; sourceTree = "<group>"; };
+		A9B8D19B1CCF66C400A50571 /* CardIOPaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewController.h; sourceTree = "<group>"; };
+		A9B8D19C1CCF66C400A50571 /* CardIOPaymentViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOPaymentViewControllerDelegate.h; sourceTree = "<group>"; };
+		A9B8D19D1CCF66C400A50571 /* CardIOUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOUtilities.h; sourceTree = "<group>"; };
+		A9B8D19E1CCF66C400A50571 /* CardIOView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOView.h; sourceTree = "<group>"; };
+		A9B8D19F1CCF66C400A50571 /* CardIOViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardIOViewDelegate.h; sourceTree = "<group>"; };
+		A9B8D1A01CCF66C400A50571 /* libCardIO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libCardIO.a; sourceTree = "<group>"; };
+		A9B8D1A11CCF66C400A50571 /* libopencv_core.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_core.a; sourceTree = "<group>"; };
+		A9B8D1A21CCF66C400A50571 /* libopencv_imgproc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libopencv_imgproc.a; sourceTree = "<group>"; };
+		A9B8D1A61CCF671400A50571 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		A9B8D1A81CCF671D00A50571 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A9B8D1AA1CCF672600A50571 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A9B8D1AC1CCF673500A50571 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A9B8D1AE1CCF673C00A50571 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A9B8D1B01CCF679600A50571 /* CardIO_Complete_Project-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CardIO_Complete_Project-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B8D1611CCF660F00A50571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D1AF1CCF673C00A50571 /* MobileCoreServices.framework in Frameworks */,
+				A9B8D1AD1CCF673500A50571 /* CoreMedia.framework in Frameworks */,
+				A9B8D1AB1CCF672600A50571 /* AudioToolbox.framework in Frameworks */,
+				A9B8D1A91CCF671D00A50571 /* AVFoundation.framework in Frameworks */,
+				A9B8D1A71CCF671400A50571 /* Accelerate.framework in Frameworks */,
+				A9B8D1A31CCF66C400A50571 /* libCardIO.a in Frameworks */,
+				A9B8D1A41CCF66C400A50571 /* libopencv_core.a in Frameworks */,
+				A9B8D1A51CCF66C400A50571 /* libopencv_imgproc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1751CCF660F00A50571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1801CCF660F00A50571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B8D15B1CCF660F00A50571 = {
+			isa = PBXGroup;
+			children = (
+				A9B8D1B01CCF679600A50571 /* CardIO_Complete_Project-Bridging-Header.h */,
+				A9B8D1AE1CCF673C00A50571 /* MobileCoreServices.framework */,
+				A9B8D1AC1CCF673500A50571 /* CoreMedia.framework */,
+				A9B8D1AA1CCF672600A50571 /* AudioToolbox.framework */,
+				A9B8D1A81CCF671D00A50571 /* AVFoundation.framework */,
+				A9B8D1A61CCF671400A50571 /* Accelerate.framework */,
+				A9B8D1971CCF66C400A50571 /* CardIO */,
+				A9B8D1661CCF660F00A50571 /* CardIO_Complete_Project */,
+				A9B8D17B1CCF660F00A50571 /* CardIO_Complete_ProjectTests */,
+				A9B8D1861CCF660F00A50571 /* CardIO_Complete_ProjectUITests */,
+				A9B8D1651CCF660F00A50571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B8D1651CCF660F00A50571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D1641CCF660F00A50571 /* CardIO_Complete_Project.app */,
+				A9B8D1781CCF660F00A50571 /* CardIO_Complete_ProjectTests.xctest */,
+				A9B8D1831CCF660F00A50571 /* CardIO_Complete_ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B8D1661CCF660F00A50571 /* CardIO_Complete_Project */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D1671CCF660F00A50571 /* AppDelegate.swift */,
+				A9B8D1951CCF662200A50571 /* ReadyMadeViewController.swift */,
+				A9B8D16B1CCF660F00A50571 /* Main.storyboard */,
+				A9B8D16E1CCF660F00A50571 /* Assets.xcassets */,
+				A9B8D1701CCF660F00A50571 /* LaunchScreen.storyboard */,
+				A9B8D1731CCF660F00A50571 /* Info.plist */,
+			);
+			path = CardIO_Complete_Project;
+			sourceTree = "<group>";
+		};
+		A9B8D17B1CCF660F00A50571 /* CardIO_Complete_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D17C1CCF660F00A50571 /* CardIO_Complete_ProjectTests.swift */,
+				A9B8D17E1CCF660F00A50571 /* Info.plist */,
+			);
+			path = CardIO_Complete_ProjectTests;
+			sourceTree = "<group>";
+		};
+		A9B8D1861CCF660F00A50571 /* CardIO_Complete_ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D1871CCF660F00A50571 /* CardIO_Complete_ProjectUITests.swift */,
+				A9B8D1891CCF660F00A50571 /* Info.plist */,
+			);
+			path = CardIO_Complete_ProjectUITests;
+			sourceTree = "<group>";
+		};
+		A9B8D1971CCF66C400A50571 /* CardIO */ = {
+			isa = PBXGroup;
+			children = (
+				A9B8D1981CCF66C400A50571 /* CardIO.h */,
+				A9B8D1991CCF66C400A50571 /* CardIOCreditCardInfo.h */,
+				A9B8D19A1CCF66C400A50571 /* CardIODetectionMode.h */,
+				A9B8D19B1CCF66C400A50571 /* CardIOPaymentViewController.h */,
+				A9B8D19C1CCF66C400A50571 /* CardIOPaymentViewControllerDelegate.h */,
+				A9B8D19D1CCF66C400A50571 /* CardIOUtilities.h */,
+				A9B8D19E1CCF66C400A50571 /* CardIOView.h */,
+				A9B8D19F1CCF66C400A50571 /* CardIOViewDelegate.h */,
+				A9B8D1A01CCF66C400A50571 /* libCardIO.a */,
+				A9B8D1A11CCF66C400A50571 /* libopencv_core.a */,
+				A9B8D1A21CCF66C400A50571 /* libopencv_imgproc.a */,
+			);
+			path = CardIO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B8D1631CCF660F00A50571 /* CardIO_Complete_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B8D18C1CCF660F00A50571 /* Build configuration list for PBXNativeTarget "CardIO_Complete_Project" */;
+			buildPhases = (
+				A9B8D1601CCF660F00A50571 /* Sources */,
+				A9B8D1611CCF660F00A50571 /* Frameworks */,
+				A9B8D1621CCF660F00A50571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardIO_Complete_Project;
+			productName = CardIO_Complete_Project;
+			productReference = A9B8D1641CCF660F00A50571 /* CardIO_Complete_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B8D1771CCF660F00A50571 /* CardIO_Complete_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B8D18F1CCF660F00A50571 /* Build configuration list for PBXNativeTarget "CardIO_Complete_ProjectTests" */;
+			buildPhases = (
+				A9B8D1741CCF660F00A50571 /* Sources */,
+				A9B8D1751CCF660F00A50571 /* Frameworks */,
+				A9B8D1761CCF660F00A50571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B8D17A1CCF660F00A50571 /* PBXTargetDependency */,
+			);
+			name = CardIO_Complete_ProjectTests;
+			productName = CardIO_Complete_ProjectTests;
+			productReference = A9B8D1781CCF660F00A50571 /* CardIO_Complete_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9B8D1821CCF660F00A50571 /* CardIO_Complete_ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B8D1921CCF660F00A50571 /* Build configuration list for PBXNativeTarget "CardIO_Complete_ProjectUITests" */;
+			buildPhases = (
+				A9B8D17F1CCF660F00A50571 /* Sources */,
+				A9B8D1801CCF660F00A50571 /* Frameworks */,
+				A9B8D1811CCF660F00A50571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B8D1851CCF660F00A50571 /* PBXTargetDependency */,
+			);
+			name = CardIO_Complete_ProjectUITests;
+			productName = CardIO_Complete_ProjectUITests;
+			productReference = A9B8D1831CCF660F00A50571 /* CardIO_Complete_ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B8D15C1CCF660F00A50571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mobisoft Infotech";
+				TargetAttributes = {
+					A9B8D1631CCF660F00A50571 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A9B8D1771CCF660F00A50571 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A9B8D1631CCF660F00A50571;
+					};
+					A9B8D1821CCF660F00A50571 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = A9B8D1631CCF660F00A50571;
+					};
+				};
+			};
+			buildConfigurationList = A9B8D15F1CCF660F00A50571 /* Build configuration list for PBXProject "CardIO_Complete_Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9B8D15B1CCF660F00A50571;
+			productRefGroup = A9B8D1651CCF660F00A50571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9B8D1631CCF660F00A50571 /* CardIO_Complete_Project */,
+				A9B8D1771CCF660F00A50571 /* CardIO_Complete_ProjectTests */,
+				A9B8D1821CCF660F00A50571 /* CardIO_Complete_ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B8D1621CCF660F00A50571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D1721CCF660F00A50571 /* LaunchScreen.storyboard in Resources */,
+				A9B8D16F1CCF660F00A50571 /* Assets.xcassets in Resources */,
+				A9B8D16D1CCF660F00A50571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1761CCF660F00A50571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1811CCF660F00A50571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B8D1601CCF660F00A50571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D1681CCF660F00A50571 /* AppDelegate.swift in Sources */,
+				A9B8D1961CCF662200A50571 /* ReadyMadeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D1741CCF660F00A50571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D17D1CCF660F00A50571 /* CardIO_Complete_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B8D17F1CCF660F00A50571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B8D1881CCF660F00A50571 /* CardIO_Complete_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B8D17A1CCF660F00A50571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B8D1631CCF660F00A50571 /* CardIO_Complete_Project */;
+			targetProxy = A9B8D1791CCF660F00A50571 /* PBXContainerItemProxy */;
+		};
+		A9B8D1851CCF660F00A50571 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B8D1631CCF660F00A50571 /* CardIO_Complete_Project */;
+			targetProxy = A9B8D1841CCF660F00A50571 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B8D16B1CCF660F00A50571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B8D16C1CCF660F00A50571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9B8D1701CCF660F00A50571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B8D1711CCF660F00A50571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B8D18A1CCF660F00A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9B8D18B1CCF660F00A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B8D18D1CCF660F00A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardIO_Complete_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Complete-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardIO_Complete_Project-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		A9B8D18E1CCF660F00A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CardIO_Complete_Project/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CardIO",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Complete-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CardIO_Complete_Project-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A9B8D1901CCF660F00A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardIO_Complete_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Complete-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardIO_Complete_Project.app/CardIO_Complete_Project";
+			};
+			name = Debug;
+		};
+		A9B8D1911CCF660F00A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CardIO_Complete_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Complete-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardIO_Complete_Project.app/CardIO_Complete_Project";
+			};
+			name = Release;
+		};
+		A9B8D1931CCF660F00A50571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardIO_Complete_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Complete-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardIO_Complete_Project;
+			};
+			name = Debug;
+		};
+		A9B8D1941CCF660F00A50571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CardIO_Complete_ProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mobisoft.CardIO-Complete-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CardIO_Complete_Project;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B8D15F1CCF660F00A50571 /* Build configuration list for PBXProject "CardIO_Complete_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D18A1CCF660F00A50571 /* Debug */,
+				A9B8D18B1CCF660F00A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B8D18C1CCF660F00A50571 /* Build configuration list for PBXNativeTarget "CardIO_Complete_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D18D1CCF660F00A50571 /* Debug */,
+				A9B8D18E1CCF660F00A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B8D18F1CCF660F00A50571 /* Build configuration list for PBXNativeTarget "CardIO_Complete_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D1901CCF660F00A50571 /* Debug */,
+				A9B8D1911CCF660F00A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B8D1921CCF660F00A50571 /* Build configuration list for PBXNativeTarget "CardIO_Complete_ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B8D1931CCF660F00A50571 /* Debug */,
+				A9B8D1941CCF660F00A50571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B8D15C1CCF660F00A50571 /* Project object */;
+}
